@@ -5,10 +5,12 @@
 </ion-header>
 
 <ion-content>
-  <ion-button expand = 'block' routerLink="/" routerDirection = 'back'>Home</ion-button> 
+
+  <ion-card>
   
   <ion-item>
-      <ion-input placeholder="Enter Input"></ion-input>
+      <ion-label size = "12" position = "floating" >Create unique username</ion-label>
+      <ion-input type = "text" placeholder="Enter Input"></ion-input>
   </ion-item>
   <ion-item>
       
@@ -33,4 +35,10 @@
         </ion-select>
       </ion-item>
 
+      
+
+
+    </ion-card>
+
+    <ion-button expand = 'block' routerLink="/" routerDirection = 'back'>Home</ion-button> 
 </ion-content>
